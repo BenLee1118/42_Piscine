@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 char *ft_strncpy(char *dest, char *src, unsigned int n)
 {
@@ -18,7 +18,9 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
     return (dest);
 }
 
-int main() {
+/*
+int main() 
+{
   char src[20] = "C programming";
   char dest[25];
 
@@ -30,3 +32,5 @@ int main() {
 
   return 0;
 }
+
+*/

@@ -10,12 +10,14 @@ char *ft_strcpy(char *dest, char *src)
         *(dest + count) = *(src + count);
         count++;
     }
+    
     *(dest + count) = '\0';
     return (dest);
 }
 
 /*
-int main() {
+int main()
+{
   char src[20] = "C programming";
   char dest[20];
 
